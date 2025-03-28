@@ -1,9 +1,11 @@
 .header {
   background-color: #002171; /* dark blue */
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .logo-container {
@@ -48,4 +50,41 @@
 
 .nav-link:hover {
   color: #d1d5db; /* light gray */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header {
+    padding: 0.75rem 1rem;
+  }
+
+  .logo-text {
+    font-size: 1.5rem;
+  }
+
+  .nav-links li {
+    margin-left: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0.5rem;
+  }
+
+  .logo-text {
+    font-size: 1.25rem;
+  }
+
+  .nav-links li {
+    margin-left: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
 }
