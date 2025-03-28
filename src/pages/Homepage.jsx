@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Homepage.css';
+import moviesData from '../assets/json/movies.json';
 
 function Homepage() {
   const [selectedLanguages, setSelectedLanguages] = useState(['English']);
@@ -9,6 +10,7 @@ function Homepage() {
     director: '',
     cast: '',
     language: '',
+    poster: '',
   });
   
   const languages = ['English', 'Hindi', 'Kannada', 'Tamil', 'Telugu'];
@@ -24,14 +26,21 @@ function Homepage() {
   };
   
   const generateMovie = () => {
-    const randomLanguage = selectedLanguages[Math.floor(Math.random() * selectedLanguages.length)];
+    // Filter movies based on selected languages
+    const filteredMovies = moviesData.movies.filter(movie => 
+      selectedLanguages.includes(movie.language)
+    );
+    
+    // Get a random movie from the filtered list
+    const randomMovie = filteredMovies[Math.floor(Math.random() * filteredMovies.length)];
     
     setMovieDetails({
-      title: 'Sample Movie Title',
-      year: '2023',
-      director: 'Famous Director',
-      cast: 'Actor 1, Actor 2, Actor 3',
-      language: randomLanguage,
+      title: randomMovie.title,
+      year: randomMovie.year,
+      director: randomMovie.director,
+      cast: randomMovie.cast,
+      language: randomMovie.language,
+      poster: randomMovie.poster,
     });
   };
   
@@ -57,7 +66,16 @@ function Homepage() {
       
       <div className="movie-display-container">
         <div className="poster-area">
-          <div className="poster-box">[Movie Poster]</div>
+          {movieDetails.poster ? (
+            <img 
+              src={movieDetails.poster} 
+              alt={movieDetails.title} 
+              className="poster-box"
+              style={{ width: '200px', height: '280px', objectFit: 'cover' }}
+            />
+          ) : (
+            <div className="poster-box">[Movie Poster]</div>
+          )}
         </div>
         
         <div className="details-area">

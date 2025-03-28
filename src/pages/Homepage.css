@@ -4,6 +4,7 @@
   padding: 2rem;
   padding-bottom: 6rem; /* Space for fixed footer */
   font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
 .homepage-title {

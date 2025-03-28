@@ -1,0 +1,94 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Dark Knight",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+      "cast": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "year": 2008,
+      "director": "Christopher Nolan",
+      "language": "English"
+    },
+    {
+      "id": 2,
+      "title": "3 Idiots",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "cast": "Aamir Khan, R. Madhavan, Sharman Joshi",
+      "year": 2009,
+      "director": "Rajkumar Hirani",
+      "language": "Hindi"
+    },
+    {
+      "id": 3,
+      "title": "K.G.F: Chapter 1",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMwMDgyOGQtMWZjNC00MDUwLTllZDYtZWMzNDM5YzExNDIyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "cast": "Yash, Srinidhi Shetty, Ramachandra Raju",
+      "year": 2018,
+      "director": "Prashanth Neel",
+      "language": "Kannada"
+    },
+    {
+      "id": 4,
+      "title": "Vikram",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmJhYzdEZWUtYTc0NS00ODZxLTgxZmUtYzM2MDM3MjAxZmJlXkEyXkFqcGdeQXVyMTQ3Mzk2MDg4._V1_.jpg",
+      "cast": "Kamal Haasan, Vijay Sethupathi, Fahadh Faasil",
+      "year": 2022,
+      "director": "Lokesh Kanagaraj",
+      "language": "Tamil"
+    },
+    {
+      "id": 5,
+      "title": "RRR",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+      "cast": "N.T. Rama Rao Jr., Ram Charan, Ajay Devgn",
+      "year": 2022,
+      "director": "S.S. Rajamouli",
+      "language": "Telugu"
+    },
+    {
+      "id": 6,
+      "title": "Inception",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
+      "year": 2010,
+      "director": "Christopher Nolan",
+      "language": "English"
+    },
+    {
+      "id": 7,
+      "title": "Dangal",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_.jpg",
+      "cast": "Aamir Khan, Fatima Sana Shaikh, Sanya Malhotra",
+      "year": 2016,
+      "director": "Nitesh Tiwari",
+      "language": "Hindi"
+    },
+    {
+      "id": 8,
+      "title": "Kantara",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmM5ZTU0ZjUtMjE0MC00NTVlLTg3MTgtMjA0ODA4ODI1ZWUyXkEyXkFqcGdeQXVyMTQ3Mzk2MDg4._V1_.jpg",
+      "cast": "Rishab Shetty, Sapthami Gowda, Kishore",
+      "year": 2022,
+      "director": "Rishab Shetty",
+      "language": "Kannada"
+    },
+    {
+      "id": 9,
+      "title": "Jailer",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDM0YzBhNWUtZTE0ZC00Y2E4LTg3MGMtYzM5YjA3ZmM3MzA5XkEyXkFqcGdeQXVyMTQ3Mzk2MDg4._V1_.jpg",
+      "cast": "Rajinikanth, Mohanlal, Jackie Shroff",
+      "year": 2023,
+      "director": "Nelson Dilipkumar",
+      "language": "Tamil"
+    },
+    {
+      "id": 10,
+      "title": "Baahubali: The Beginning",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmY3MzYwMGUtOWMxYS00OGVhLWFjNmUtYzgwMjM1MzI5ZTMzXkEyXkFqcGdeQXVyNTgxODY5ODk@._V1_.jpg",
+      "cast": "Prabhas, Rana Daggubati, Anushka Shetty",
+      "year": 2015,
+      "director": "S.S. Rajamouli",
+      "language": "Telugu"
+    }
+  ]
+}
