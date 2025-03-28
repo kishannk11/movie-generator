@@ -1,0 +1,139 @@
+.homepage {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-bottom: 6rem; /* Space for fixed footer */
+  font-family: Arial, sans-serif;
+}
+
+.homepage-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.language-select-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.language-label {
+  margin-right: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.language-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.language-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: #e0f7fa;
+  border: 1px solid #80deea;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #333;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.language-btn.active {
+  background-color: #00b0ff;
+  color: #333;
+  border-color: #0091ea;
+}
+
+.language-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.generate-movie-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.generate-movie-btn:hover {
+  background-color: #b71c1c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.movie-display-container {
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  padding: 2rem;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.poster-area {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.poster-box {
+  width: 200px;
+  height: 280px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.details-area {
+  padding-left: 2rem;
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+
+.detail-label {
+  font-weight: bold;
+  width: 80px;
+  color: #333;
+}
+
+.detail-value {
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .language-select-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .language-buttons {
+    margin: 0.5rem 0;
+  }
+  
+  .generate-movie-btn {
+    margin-top: 1rem;
+    align-self: flex-end;
+  }
+} 
